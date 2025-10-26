@@ -1,0 +1,16 @@
+@layer base {
+    html {
+        font-family: "Bitcount Grid Single", system-ui;
+    }
+    body {
+        /* @apply bg-blue-500; */
+        @apply bg-slate-700 text-amber-600;
+    }
+}
+
+@layer components {
+    .myLayout {
+        background-color: #000000;
+        @apply text-amber-800;
+    }
+}

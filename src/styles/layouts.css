@@ -1,0 +1,7 @@
+/* DOES NOT WORK IN NEXT JS */
+
+
+@layout myLayout {
+    background-color: #000000;
+    @apply text-amber-800;
+}
