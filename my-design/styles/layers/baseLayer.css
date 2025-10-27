@@ -1,0 +1,48 @@
+@layer base {
+
+    h1 {
+        @apply text-3xl font-bold mb-2;
+    }
+
+    h2 {
+        @apply text-xl font-semibold mb-1;
+    }
+
+    a {
+        @apply underline text-blue-600 hover:text-purple-500 transition decoration-wavy underline-offset-2;
+    }
+
+    input, select {
+        @apply text-slate-500 outline-none border border-slate-300 rounded px-1 py-1 mb-1 mr-1;
+    }
+
+    select {
+        @apply pr-8;
+    }
+
+    input[type="text"] {
+        @apply 
+        disabled:bg-slate-100
+        placeholder:italic;
+    }
+
+    input[type="date"] {
+        
+    }
+
+    /* input[type="checkbox"] {
+        @apply appearance-none checked:bg-red-500 checked:border checked:border-red-500;
+    } */
+
+    input[type="checkbox"] {
+        @apply p-2 accent-purple-500 mt-0.5;
+    }
+
+    label {
+        @apply text-sm text-slate-700 font-medium leading-4;
+    }
+
+    /* select {
+        @apply text-slate-500 outline-none border border-slate-300 rounded px-1 py-1 mb-1 mr-1;
+    } */
+}
